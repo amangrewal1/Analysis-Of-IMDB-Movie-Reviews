@@ -24,4 +24,22 @@ Data Exploration
 In our project, we used the IMDb movie review dataset. This dataset consists of 50,000 opinionated movie reviews evenly split between positive and negative reviews.
 To get a better understanding of the dataset, we examined the most frequently used words in both positive and negative reviews.
 
+<img width="949" alt="Screenshot 2024-08-02 at 2 29 49 PM" src="https://github.com/user-attachments/assets/ef374dbf-36f9-47af-94c3-0c093f7f9e7d">
+
+
+This figure did not provide much insight into the differences between positive and negative reviews. Next, we examined the words that were most frequently used in positive reviews but not negative reviews and vice versa.
+
+<img width="900" alt="Screenshot 2024-08-02 at 2 30 25 PM" src="https://github.com/user-attachments/assets/985deee3-53c3-48cb-8bd2-f952d9d77413">
+
+From these figures, we can make observations such as words like “great” and “love” being indicative of positive reviews.
+Additional Note: we observed that “br”, which represents the html <br> tag, is a part of our bag of words. We decided to not remove this tag as it represents additional data which may determine whether a review is negative or positive.
+
+# Previous Research
+The IMDb dataset is commonly used in machine learning studies. One such study is "Fast and accurate sentiment classification using an enhanced Naive Bayes model" by Vivek Narayanan, Ishan Arora and Arjun Bhatia. The authors used this dataset to train a Naive Bayes classifier with some modifications and achieved an accuracy of 88.8%.
+# 
+
+
+
+
+
 
