@@ -14,7 +14,7 @@ This project conducts an analysis of various classifiers on the IMDB Movie Revie
 2. Run the main script:
 
 
-## Report:
+# Report:
 
 ### I. Summary
 The purpose of this project was to analyze the effect increasing the amount of training data has on testing accuracy. We chose to analyze this relationship by use of the IMDB Movie Review dataset. The classifiers that we analyzed were k Nearest Neighbors, Decision Tree, Feed Forward Neural Network, and Logistic Regression. Through this project, we were able to observe that the increase of testing accuracy in relation to the amount of training data added plateaus for some classifiers. Thus in some classifiers, the benefit of adding more training data becomes negligible once a certain threshold is passed.
@@ -34,9 +34,8 @@ This figure did not provide much insight into the differences between positive a
 From these figures, we can make observations such as words like “great” and “love” being indicative of positive reviews.
 Additional Note: we observed that “br”, which represents the html <br> tag, is a part of our bag of words. We decided to not remove this tag as it represents additional data which may determine whether a review is negative or positive.
 
-# Previous Research
+#### Previous Research
 The IMDb dataset is commonly used in machine learning studies. One such study is "Fast and accurate sentiment classification using an enhanced Naive Bayes model" by Vivek Narayanan, Ishan Arora and Arjun Bhatia. The authors used this dataset to train a Naive Bayes classifier with some modifications and achieved an accuracy of 88.8%.
-# 
 
 
 
