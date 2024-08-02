@@ -1,0 +1,6 @@
+datasets
+scikit-learn
+matplotlib
+numpy
+pandas
+tensorflow
